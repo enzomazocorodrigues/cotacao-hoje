@@ -27,7 +27,7 @@
               <span class="mr-1 text-h6">R$</span>
               <span class="text-h3">{{ currencyNowPrice }}</span>
             </div>
-            <span class="text-caption">{{ updateTime }}</span>
+            <!-- <span class="text-caption">{{ updateTime }}</span> -->
           </v-card-text>
           <v-card-text v-if="currencyPrices.length">
             <v-sparkline
@@ -70,12 +70,10 @@
 <script>
 import axios from 'axios'
 import { differenceInMinutes } from 'date-fns'
-const longDate = new Intl.DateTimeFormat('pt-BR', { dateStyle: 'full' })
 export default {
   name: 'App',
   data() {
     return {
-      longDate,
       baseApiUrl: 'https://economia.awesomeapi.com.br/json/daily',
       time: 8,
       currencyPrices: [],
