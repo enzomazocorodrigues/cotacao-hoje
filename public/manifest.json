@@ -1,0 +1,13 @@
+{
+    "name": "Cotação Hoje",
+    "short_name": "Cotação Hoje",
+    "start_url": "/",
+    "background_color": "#FFF",
+    "theme_color": "#FFF",
+    "orientation": "any",
+    "display": "standalone",
+    "scope": ".",
+    "description": "Veja a cotação dos últimos dias de moedas ao redor do mundo!",
+    "dir": "ltr",
+    "lang": "en-US"
+  }
