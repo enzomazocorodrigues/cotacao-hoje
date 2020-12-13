@@ -9,5 +9,19 @@
     "scope": ".",
     "description": "Veja a cotação dos últimos dias de moedas ao redor do mundo!",
     "dir": "ltr",
-    "lang": "en-US"
+    "lang": "en-US",
+    "icons": [
+        {
+          "src": "./img/icons/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable"
+        },
+        {
+          "src": "./img/icons/android-chrome-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
   }
